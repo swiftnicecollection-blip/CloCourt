@@ -107,13 +107,7 @@ function initProduct() {
         <button class="btn btn-block" id="add" type="button">Add to cart</button>
         <a class="btn btn-wa btn-block" id="order" target="_blank" rel="noopener">Order on WhatsApp</a>
       </div>
-      <p class="muted">Your order is confirmed only after we reply on WhatsApp.</p>
-      <details><summary>Size chart</summary>
-        <!-- TODO: replace with your real measurements (inches) -->
-        <table><tr><th>Size</th><th>Chest</th><th>Length</th></tr>
-        <tr><td>S</td><td>38</td><td>28</td></tr><tr><td>M</td><td>40</td><td>29</td></tr>
-        <tr><td>L</td><td>42</td><td>30</td></tr><tr><td>XL</td><td>44</td><td>31</td></tr></table></details>
-      <details><summary>Shipping and delivery</summary>
+      <p class="muted">Your order is confirmed only after we reply on WhatsApp.</p
         <!-- TODO: add your city, courier, charges and delivery times -->
         <p>We confirm delivery area, charges and timing with you on WhatsApp before your order is arranged.</p></details>
       <details><summary>Reviews</summary>${reviews}</details>
