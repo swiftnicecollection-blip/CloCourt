@@ -39,7 +39,8 @@ function buildLayout() {
   $("#site-header").innerHTML = `
     <div class="banner">${CONFIG.banner}</div>
     <header class="site-header">
-      <a class="logo" href="index.html" aria-label="CloCourt home">CloCourt</a>
+
+<a class="logo" href="index.html" aria-label="CloCourt home"><span style="color: #D4AF77;">Clo</span><span style="color: #000000;">Court</span></a>
       <nav class="nav" id="nav" aria-label="Main">${nav}</nav>
       <a class="cart-link" href="cart.html">Cart <span class="cart-count" hidden>0</span></a>
       <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
